@@ -1,0 +1,27 @@
+.title {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: rgb(107, 119, 107);
+    text-align: center;
+}
+
+.tableContainer{
+    width: 60%;
+    margin: auto;
+}
+.clearHistory{
+    border: none;
+    background-color: rgb(107, 119, 107);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    top: 11%;
+    right:5%
+}
+
+.clearHistory:active{
+    transform: scale(0.95);
+    transition: 0.2s;
+}

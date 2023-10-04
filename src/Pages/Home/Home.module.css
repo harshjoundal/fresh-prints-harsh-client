@@ -1,0 +1,68 @@
+.container{
+    width: 520px;
+    margin: auto;
+    border: 1px solid rgb(219, 218, 218);
+    padding: 20px ;
+    border-radius: 10px;
+}
+.title{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: rgb(107, 119, 107);
+    text-align: center;
+}
+.input_bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+}
+.searchComponent{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.searchButton{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: rgb(107, 119, 107);
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+.searchButton:active{
+    transform: scale(0.99);
+    transition: 0.2s;
+}
+.resultComponent{
+    margin-top: 20px;
+}
+.resultComponent > p{
+    text-align: left;
+    color: rgb(107, 119, 107);
+}
+.cardContainer{
+    border: 1px solid rgb(219, 218, 218);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.userimageTitle{
+    color: rgb(107, 119, 107);
+    text-align: left;
+    margin-bottom: 20px;
+}
+.userImagebox{
+    border: 1px solid rgb(219, 218, 218);
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+}
+.userImagebox>img{
+    width: 100%;
+}
